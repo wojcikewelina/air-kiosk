@@ -1,0 +1,33 @@
+.navbar-section {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.nav-search-form {
+    width: 35%;
+}
+
+.nav-ul {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.nav-ul li{
+    display: inline;
+}
+
+.nav-element {
+    display: inline;
+    margin: 8px;
+    color: #252667;
+    font-weight: bold;
+}
+
+.activ-nav-element {
+    color:red;
+    width: 200px;
+    height: 200px;
+    
+}

@@ -6,7 +6,7 @@ import PlaneIcon from "../pictures-icons/PlaneIcon";
 
 const Header = () => {
     return (
-        <header>
+        <header className="center-width">
             <div className="header-top">
                 <div></div>
                 <div className="my-account-div">
@@ -41,14 +41,14 @@ const Header = () => {
                 </div>
             </div>
             <div className="header-bottom">
-                <h1 className="lot-logo" />
+                <a href="/home-delivery"> <h1 className="lot-logo" /></a>
                 <div className="my-reserv-div">
                     <PlaneIcon />
                     <div>
                         <div>Numer twojej rezerwacji</div>
-                        <div>
+                        <div className="reserv-number">
                             <span>233A2455</span>
-                            <span>zmień</span></div>
+                            <a href=""><span>zmień</span></a></div>
                     </div>
                 </div>
             </div>
