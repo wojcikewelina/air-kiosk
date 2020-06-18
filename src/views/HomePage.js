@@ -1,8 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import CarouselPart from "../components/Carousel";
 
-class HomePage extends Component{
-  render(){
-    return <p> Home Page </p> 
-  }
+class HomePage extends Component {
+  render() {
+    return (<section>
+      <CarouselPart />
+      </section>
+    )}
 }
 export default HomePage;

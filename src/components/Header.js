@@ -41,7 +41,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="header-bottom">
-                <a href="/home-delivery"> <h1 className="lot-logo" /></a>
+                <a href="/"> <h1 className="lot-logo" /></a>
                 <div className="my-reserv-div">
                     <PlaneIcon />
                     <div>
