@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import CarouselPart from "../components/Carousel";
+import SliderTop from "../components/SliderTop";
+
 
 class HomePage extends Component {
   render() {
     return (<section>
-      <CarouselPart />
+      <SliderTop />
       </section>
     )}
 }

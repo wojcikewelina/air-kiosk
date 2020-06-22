@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "../style/Header.css";
 import PersonIcon from "../pictures-icons/PersonIcon";
 import CartIcon from "../pictures-icons/CartIcon";
 import PlaneIcon from "../pictures-icons/PlaneIcon";
