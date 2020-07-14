@@ -1,0 +1,30 @@
+@mixin singleBoxPosition() {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  min-width: 70px;
+}
+
+@mixin imgPosition {
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+@mixin flexCenter($justify-content, $align-items) {
+  display: flex;
+  width: 100%;
+  justify-content: $justify-content;
+  text-align: center;
+  align-items: $align-items;
+}
+
+$primaryColor: #193171;
+
+//położenie na divie:
+
+.div-covering{
+  top: -5vw;
+}
+
+

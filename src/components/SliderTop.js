@@ -1,48 +1,61 @@
-import React, { useState } from 'react';
-import "../style/sliderTop.scss";
+import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 
-import Pictue1 from "../pictures-icons/Carousel-1.jpg"
-import Pictue2 from "../pictures-icons/Carousel-2.jpg"
-import Pictue3 from "../pictures-icons/Carousel-3.jpg"
-import SliderTopImage from './SliderTopImage';
 
+import Picture1 from "../pictures-icons/Carousel-1.jpg"
+import Picture2 from "../pictures-icons/Carousel-2.jpg"
+import Picture3 from "../pictures-icons/Carousel-3.jpg"
+
+import '../style/SliderTop.scss'
+
+const HASHTAG_NAME = "#AKCJALICYTACJA";
+const DESCRIPTION = "ceny biletów nowych europejskich kierunków w Twoich rękach!"
 function SliderTop() {
 
-    let sliderArr = [
-        <SliderTopImage src={Pictue1} />,
-        <SliderTopImage src={Pictue2} />,
-        <SliderTopImage src={Pictue3} />
-    ];
-    const [x, setX] = useState(0);
-    const goLeft = () => {
-        x === 0 ? setX(-100 * (sliderArr.length - 1)) : setX(x + 100)
-    }
-    const goRight = () => {
-        (x === -100 * (sliderArr.length - 1)) ? setX(0) : setX(x - 100)
-    }
-
-    return (
-        <div className="slider-top">
-            {
-                sliderArr.map((item, index) => {
-                    return (
-                        <div key={index} className="slide" style={{ transform: `translateX(${x}%)` }}>
-                            {item}
-                        </div>
-                    )
-                })
-            }
-            <button id="goLeft" onClick={goLeft}>
-                back
-            </button>
-            <button id="goRight" onClick={goRight}>
-                next
-            </button>
-        </div>
-
-    )
 
 
+  return (
+    <Carousel>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Picture1}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>{HASHTAG_NAME}</h3>
+          <p>{DESCRIPTION}</p>
+          <button>Licytuj bilet</button>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Picture2}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+        <h3>{HASHTAG_NAME}</h3>
+          <p>{DESCRIPTION}</p>
+          <button>Licytuj bilet</button>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={Picture3}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+        <h3>{HASHTAG_NAME}</h3>
+          <p>{DESCRIPTION}</p>
+          <button>Licytuj bilet</button>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  )
 };
 
 export default SliderTop;

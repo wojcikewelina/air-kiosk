@@ -1,0 +1,123 @@
+@mixin singleBoxPosition() {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    min-width: 70px;
+}
+
+@mixin imgPosition {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+@mixin flexCenter($justify-content, $align-items) {
+    display: flex;
+    width: 100%;
+    justify-content: $justify-content;
+    text-align: center;
+    align-items: $align-items;
+}
+
+$primaryColor: #193171;
+
+.shop-bar-style {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .shop-standard-box {
+        @include singleBoxPosition();
+        background-color: white;
+        img {
+            @include imgPosition();
+            margin-top: 0.1vw;
+            margin-bottom: 0.1vw;
+        }
+        h6 {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            font-size: 1.2vw;
+            color: $primaryColor;
+            margin-top: 4vw;
+            margin-bottom: 0px;
+        }
+        p {
+            font-size: 1.2vw;
+            text-align: center;
+            margin-top: -0.5vw;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 1vw;
+            line-height: 1.2vw;
+            color: grey;
+        }
+        .price-part {
+            @include flexCenter(space-around, flex-end);
+            position: absolute;
+            bottom: 0px;
+            color: grey;
+
+            .price-before {
+                font-size: 1.3vw;
+                text-decoration: line-through;
+
+                padding-bottom: 2px;
+            }
+
+            .price-current {
+                font-size: 1.7vw;
+            }
+        }
+    }
+    .shop-main-box {
+        @include singleBoxPosition();
+        background-color: white;
+
+        img {
+            @include imgPosition();
+            margin-top: 0.1vw;
+            margin-bottom: 0.1vw;
+        }
+
+        .text-shop-box {
+            @include flexCenter(space-between, center);
+            .text-line {
+                background-color: black;
+                height: 0.2vw;
+                width: 20%;
+            }
+
+            h3 {
+                display: inline-block;
+                width: 50%;
+                text-align: center;
+                font-size: 2.2vw;
+                line-height: 2vw;
+                color: $primaryColor;
+                text-decoration: solid;
+            }
+        }
+        p {
+            font-size: 1.2vw;
+            text-align: center;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 1vw;
+            line-height: 1.2vw;
+            color: $primaryColor;
+        }
+        button {
+            width: 100%;
+            font-size: 1vw;
+            border: solid $primaryColor 1px;
+            color: $primaryColor;
+            cursor: pointer;
+            border-radius: 1px;
+            background-color: white;
+            height: 2.2vw;
+        }
+    }
+}

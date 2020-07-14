@@ -3,7 +3,7 @@ import "../style/Header.css";
 import PersonIcon from "../pictures-icons/PersonIcon";
 import CartIcon from "../pictures-icons/CartIcon";
 import PlaneIcon from "../pictures-icons/PlaneIcon";
-
+import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
         <header className="center-width">
@@ -41,7 +41,12 @@ const Header = () => {
                 </div>
             </div>
             <div className="header-bottom">
-                <a href="/"> <h1 className="lot-logo" /></a>
+            <NavLink
+              exact={true}
+              to="/">
+              <h1 className="lot-logo" />
+            </NavLink>
+                
                 <div className="my-reserv-div">
                     <PlaneIcon />
                     <div>
