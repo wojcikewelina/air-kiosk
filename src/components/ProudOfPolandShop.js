@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import "../style/ShopBarStyle.scss";
+import "../style/ProudOfPolandSection.scss";
 
 import pic1 from "../pictures-icons/pop1.jpg"
 import pic2 from "../pictures-icons/pop2.jpg"
 import pic3 from "../pictures-icons/pop3.jpg"
 import pic4 from "../pictures-icons/pop4.jpg"
 
-import ShopMainBox from "./ShopMainBox"
-import ShopStandardBox from "./ShopStandardBox"
+import ShopBasicBox from "./ShopBasicBox"
 
 
 const ProudOfPolandShop = (props) => {
@@ -16,35 +16,31 @@ const ProudOfPolandShop = (props) => {
 
         <div className={props.classNameProps}>
 
-
-            <ShopStandardBox
-                classNameProps="shop-standard-box"
+            <ShopBasicBox
                 src={pic1}
-                name={"BRANSOLETKA VISANTI"}
-                pDescription={"perły łososiowe hodowane, słodkowodne 4-5mm, zapięcie srebrne"}
-                priceCurrent={"79,00"}
+                name={"BUDZIK ŁOWICKI \nW KOLORZE BIAŁYM"}
+                priceCurrent={"59,00 PLN"}
             />
-            <ShopStandardBox
-                classNameProps="shop-standard-box"
+            <ShopBasicBox
                 src={pic2}
-                name={"PIERŚCIONEK VISANTI"}
-                pDescription={"srebrny z białą perłą słodkowodną ok. 6 mm"}
-                priceCurrent={"89,00"}
+                name={"MAGNES ŁOWICKI \nW KOLORZE BIAŁYM"}
+                priceCurrent={"6,00 PLN"}
             />
-            <ShopStandardBox
-                classNameProps="shop-standard-box"
+            <ShopBasicBox
                 src={pic3}
-                name={"NASZYJNIK"}
-                pDescription={"z perłą shell wielkości 20 mm w kolorze białym"}
-                priceCurrent={"149,00"}
+                name={"SMYCZ ŁOWICKA \nW KOLORZE CZARNYM"}
+                priceCurrent={"10,00 PLN"}
             />
-            <ShopMainBox
-                classNameProps="shop-main-box"
-                src={pic4}
-                mainName="BIŻUTERIA VISANTI"
-                pValue="Produkty z oferty SHOP&MORE z dostawa pod wskazany adres do Polski"
-                buttonText="Poznaj cała kolekcję >"
-            />
+            <div className="main-proudOP-box">
+                <img src={pic4} alt="picture" />
+                <div className="text-shop-box">
+                    <span className="text-line" />
+                    <h5>PROUD OF POLAND</h5>
+                    <span className="text-line" />
+                </div>
+                <p>Zobacz jak możesz poznać Polske i odkryć jej niezwykłe piękno - poznaj nowoczesne wydanie tradycyjnego polskiego folkloru</p>
+                <button>Poznaj cała kolekcję</button>
+            </div>
         </div>
     )
 }

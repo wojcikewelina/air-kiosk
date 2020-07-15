@@ -13,6 +13,7 @@ class HomePage extends Component {
       <JewelleryShop classNameProps="shop-bar-style div-covering" />
       <SpecialOffers />
       <ProudOfPolandShop classNameProps="shop-bar-style" />
+      <div>nsnsnsn</div>
     </section>
     )
   }

@@ -1,0 +1,55 @@
+@mixin flexCenter($justify-content, $align-items) {
+    display: flex;
+    width: 100%;
+    justify-content: $justify-content;
+    text-align: center;
+    align-items: $align-items;
+}
+
+$primaryColor: #193171;
+
+.main-proudOP-box {
+    width: 23%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 100%;
+    }
+
+    .text-shop-box {
+        @include flexCenter(space-between, center);
+        .text-line {
+            background-color: black;
+            height: 0.2vw;
+            width: 20%;
+        }
+
+        h5 {
+            display: inline-block;
+            width: 50%;
+            text-align: center;
+            line-height: 2vw;
+            color: $primaryColor;
+            text-decoration: solid;
+        }
+    }
+
+    p{
+        font-size: small;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1vw;
+        border: solid $primaryColor 1px;
+        color: white;
+        cursor: pointer;
+        border-radius: 1px;
+        background-color: $primaryColor;
+        height: 2.2vw;
+    }
+}
