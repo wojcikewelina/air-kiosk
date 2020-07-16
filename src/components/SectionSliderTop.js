@@ -6,11 +6,11 @@ import Picture1 from "../pictures-icons/Carousel-1.jpg"
 import Picture2 from "../pictures-icons/Carousel-2.jpg"
 import Picture3 from "../pictures-icons/Carousel-3.jpg"
 
-import '../style/SliderTop.scss'
+import '../style/SectionSliderTop.scss'
 
 const HASHTAG_NAME = "#AKCJALICYTACJA";
 const DESCRIPTION = "ceny biletów nowych europejskich kierunków w Twoich rękach!"
-function SliderTop() {
+function SectionSliderTop() {
 
 
 
@@ -58,4 +58,4 @@ function SliderTop() {
   )
 };
 
-export default SliderTop;
+export default SectionSliderTop;

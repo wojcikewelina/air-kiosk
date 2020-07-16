@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 
-import SliderTop from "../components/SliderTop";
-import JewelleryShop from "../components/JewelleryShop";
-import SpecialOffers from "../components/SpecialOffers";
-import ProudOfPolandShop from "../components/ProudOfPolandShop";
+import SectionSliderTop from "../components/SectionSliderTop";
+import SectionJewelleryShop from "../components/SectionJewelleryShop";
+import SectionSpecialOffers from "../components/SectionSpecialOffers";
+import SectionProudOfPolandShop from "../components/SectionProudOfPolandShop";
+import SectionShopingOptions from "../components/SectionShopingOptions";
 
 
 class HomePage extends Component {
   render() {
     return (<section>
-      <SliderTop />
-      <JewelleryShop classNameProps="shop-bar-style div-covering" />
-      <SpecialOffers />
-      <ProudOfPolandShop classNameProps="shop-bar-style" />
-      <div>nsnsnsn</div>
+      <SectionSliderTop />
+      <SectionJewelleryShop classNameProps="shop-bar-style div-covering" />
+      <SectionSpecialOffers />
+      <SectionProudOfPolandShop classNameProps="shop-bar-style" />
+      <SectionShopingOptions/>
     </section>
     )
   }

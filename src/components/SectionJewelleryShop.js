@@ -1,12 +1,12 @@
 import React from "react";
-import "../style/JewelleryShop.scss";
+import "../style/SectionJewelleryShop.scss";
 import "../style/ShopBarStyle.scss";
 
 import ShopMainBox from "./ShopMainBox"
 import ShopStandardBox from "./ShopStandardBox"
 
 
-const JewelleryShop = (props) => {
+const SectionJewelleryShop = (props) => {
   return (
     <div className={props.classNameProps}>
       <ShopMainBox src="https://bnsec.bluenile.com/bluenile/is/image/bluenile/-akoya-pearl-necklace-18k-white-gold-/40941_main?$phab_detailmain$"
@@ -43,4 +43,4 @@ const JewelleryShop = (props) => {
   );
 };
 
-export default JewelleryShop;
+export default SectionJewelleryShop;

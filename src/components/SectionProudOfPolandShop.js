@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../style/ShopBarStyle.scss";
-import "../style/ProudOfPolandSection.scss";
+import "../style/SectionProudOfPoland.scss";
 
 import pic1 from "../pictures-icons/pop1.jpg"
 import pic2 from "../pictures-icons/pop2.jpg"
@@ -10,7 +10,7 @@ import pic4 from "../pictures-icons/pop4.jpg"
 import ShopBasicBox from "./ShopBasicBox"
 
 
-const ProudOfPolandShop = (props) => {
+const SectionProudOfPolandShop = (props) => {
 
     return (
 
@@ -23,12 +23,12 @@ const ProudOfPolandShop = (props) => {
             />
             <ShopBasicBox
                 src={pic2}
-                name={"MAGNES ŁOWICKI \nW KOLORZE BIAŁYM"}
+                name={"MAGNES ŁOWICKI W KOLORZE BIAŁYM"}
                 priceCurrent={"6,00 PLN"}
             />
             <ShopBasicBox
                 src={pic3}
-                name={"SMYCZ ŁOWICKA \nW KOLORZE CZARNYM"}
+                name={"SMYCZ ŁOWICKA W KOLORZE CZARNYM"}
                 priceCurrent={"10,00 PLN"}
             />
             <div className="main-proudOP-box">
@@ -45,4 +45,4 @@ const ProudOfPolandShop = (props) => {
     )
 }
 
-export default ProudOfPolandShop;
+export default SectionProudOfPolandShop;

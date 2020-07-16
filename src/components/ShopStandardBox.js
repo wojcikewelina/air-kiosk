@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/JewelleryShop.scss";
+import "../style/SectionJewelleryShop.scss";
 
 const ShopStandardBox = props => {
   return (
