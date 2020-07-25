@@ -4,7 +4,7 @@ import "../style/SectionJewelleryShop.scss";
 const ShopStandardBox = props => {
   return (
     <div className={props.classNameProps}>
-      <img src={props.src} alt="picture" />
+      <img src={props.src} alt="Jewellery" />
       <h6>{props.name}</h6>
       <p>{props.pDescription}</p>
       <div className="price-part">

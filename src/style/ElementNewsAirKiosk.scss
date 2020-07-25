@@ -1,0 +1,43 @@
+.element-news {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        height: 150px;
+        width: auto;
+        overflow: hidden;
+    }
+
+    h6 {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2vw;
+        color: #193171;
+        margin-top: 1vw;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 1.2vw;
+        text-align: center;
+        margin-top: -0.5vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 1vw;
+        line-height: 1.2vw;
+        color: rgb(46, 43, 43);
+    }
+
+    .price-current {
+        font-size: 1.7vw;
+        color: rgb(46, 43, 43);
+    }
+    .img-container {
+        margin: 10px 10px 0px 10px;
+    }
+}

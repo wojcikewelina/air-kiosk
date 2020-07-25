@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "../style/ShopBarStyle.scss";
 import "../style/SectionProudOfPoland.scss";
 
@@ -32,7 +32,7 @@ const SectionProudOfPolandShop = (props) => {
                 priceCurrent={"10,00 PLN"}
             />
             <div className="main-proudOP-box">
-                <img src={pic4} alt="picture" />
+                <img src={pic4} alt="proudOfPoland" />
                 <div className="text-shop-box">
                     <span className="text-line" />
                     <h5>PROUD OF POLAND</h5>

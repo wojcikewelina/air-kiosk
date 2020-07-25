@@ -1,0 +1,77 @@
+@import "./SectionShopingOptions.scss";
+// Used circle-div class oraz $primaryColor from imported scss file
+
+@mixin div-parameters() {
+    height: 120px;
+    margin: 5px;
+}
+
+$buttonheight: 32px;
+
+.newsletter {
+    display: flex;
+    padding-left: 15%;
+
+    margin-top: 15px;
+    background-image: url(https://thumbs.dreamstime.com/b/pi%C4%99kne-chmury-panorama-138382061.jpg);
+    background-size: cover;
+    color: $primaryColor;
+
+    .left-part {
+        width: 50%;
+        @include div-parameters();
+        display: flex;
+        align-items: center;
+        .description {
+            margin-left: 1%;
+
+            h3 {
+                margin-top: 2%;
+            }
+        }
+    }
+
+    .right-part {
+        width: 49%;
+        @include div-parameters();
+        font-size: small;
+        form {
+            position: relative;
+            display: flex;
+            max-width: 400px;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+
+            label {
+                display: flex;
+                flex: 1;
+            }
+        }
+
+        input[type="text"] {
+            flex: 1;
+            border: 1px solid lightgrey;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            height: $buttonheight;
+        }
+
+        button {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border: 0;
+            background: $primaryColor;
+            color: #fff;
+            height: $buttonheight;
+        }
+        input[type="checkbox"] {
+            margin: 0 0 0 5px;
+        }
+
+        input[type="checkbox"] + label {
+            font-weight: bold;
+            font-size: xx-small;
+            margin-bottom: 0px;
+        }
+    }
+}

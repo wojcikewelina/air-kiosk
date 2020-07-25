@@ -44,7 +44,7 @@ const Header = () => {
             <NavLink
               exact={true}
               to="/">
-              <h1 className="lot-logo" />
+              <h1 className="lot-logo" ></h1>
             </NavLink>
                 
                 <div className="my-reserv-div">
