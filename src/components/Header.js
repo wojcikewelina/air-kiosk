@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Header.css";
+import "../style/Header.scss";
 import PersonIcon from "../pictures-icons/PersonIcon";
 import CartIcon from "../pictures-icons/CartIcon";
 import PlaneIcon from "../pictures-icons/PlaneIcon";
@@ -41,12 +41,12 @@ const Header = () => {
                 </div>
             </div>
             <div className="header-bottom">
-            <NavLink
-              exact={true}
-              to="/">
-              <h1 className="lot-logo" ></h1>
-            </NavLink>
-                
+                <NavLink
+                    exact={true}
+                    to="/">
+                    <h1 className="lot-logo" ></h1>
+                </NavLink>
+
                 <div className="my-reserv-div">
                     <PlaneIcon />
                     <div>

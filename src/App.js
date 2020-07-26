@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import NavigationBar from "./components/navigationBar"
 import TestPage from './views/TestPage';
 import HomePage from './views/HomePage';
+import Footer from './components/Footer';
 
 import { HashRouter, Route, Switch } from "react-router-dom";
 
@@ -17,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <HashRouter>
-      <Header />
+        <Header />
         <NavigationBar />
         <Switch>
           <Route exact path="/" component={HomePage} />
@@ -28,7 +29,9 @@ function App() {
           <Route path="/new" component={TestPage} />
           <Route path="/sale" component={TestPage} />
         </Switch>
+        <Footer/>
       </HashRouter>
+      
     </div>
   );
 }

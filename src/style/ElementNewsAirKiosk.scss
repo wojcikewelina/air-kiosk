@@ -1,6 +1,7 @@
+@import "./ACommonStyles.scss";
+
 .element-news {
-    width: 90%;
-    margin-left: 5%;
+    @include SectionsCentralPosition;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;

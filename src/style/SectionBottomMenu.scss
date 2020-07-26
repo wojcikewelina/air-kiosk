@@ -1,3 +1,5 @@
+@import "./ACommonStyles.scss";
+
 @mixin displayFlexAndCenterAlign {
     display: flex;
     align-items: center;
@@ -15,9 +17,8 @@ $bottomMenuFontSize: smaller;
     justify-content: space-between;
     align-content: center;
 
-    width: 90%;
+    @include SectionsCentralPosition;
     height: 100%;
-    margin-left: 5%;
 
     > div {
         width: 20%;
