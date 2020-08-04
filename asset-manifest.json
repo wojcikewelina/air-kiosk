@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/air-kiosk/static/css/main.08d70b78.chunk.css",
-    "main.js": "/air-kiosk/static/js/main.17983b8a.chunk.js",
-    "main.js.map": "/air-kiosk/static/js/main.17983b8a.chunk.js.map",
+    "main.css": "/air-kiosk/static/css/main.5c3ae03e.chunk.css",
+    "main.js": "/air-kiosk/static/js/main.2040089e.chunk.js",
+    "main.js.map": "/air-kiosk/static/js/main.2040089e.chunk.js.map",
     "runtime-main.js": "/air-kiosk/static/js/runtime-main.8e953ca7.js",
     "runtime-main.js.map": "/air-kiosk/static/js/runtime-main.8e953ca7.js.map",
     "static/css/2.7cd5cc06.chunk.css": "/air-kiosk/static/css/2.7cd5cc06.chunk.css",
     "static/js/2.90763ab2.chunk.js": "/air-kiosk/static/js/2.90763ab2.chunk.js",
     "static/js/2.90763ab2.chunk.js.map": "/air-kiosk/static/js/2.90763ab2.chunk.js.map",
     "index.html": "/air-kiosk/index.html",
-    "precache-manifest.3985eabd7d266aa5c1809d9d98137ba0.js": "/air-kiosk/precache-manifest.3985eabd7d266aa5c1809d9d98137ba0.js",
+    "precache-manifest.0e687b891e338aef4c744c92758b3274.js": "/air-kiosk/precache-manifest.0e687b891e338aef4c744c92758b3274.js",
     "service-worker.js": "/air-kiosk/service-worker.js",
     "static/css/2.7cd5cc06.chunk.css.map": "/air-kiosk/static/css/2.7cd5cc06.chunk.css.map",
-    "static/css/main.08d70b78.chunk.css.map": "/air-kiosk/static/css/main.08d70b78.chunk.css.map",
+    "static/css/main.5c3ae03e.chunk.css.map": "/air-kiosk/static/css/main.5c3ae03e.chunk.css.map",
     "static/js/2.90763ab2.chunk.js.LICENSE.txt": "/air-kiosk/static/js/2.90763ab2.chunk.js.LICENSE.txt",
     "static/media/Carousel-1.jpg": "/air-kiosk/static/media/Carousel-1.06224f05.jpg",
     "static/media/Carousel-2.jpg": "/air-kiosk/static/media/Carousel-2.6d65ec4f.jpg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.8e953ca7.js",
     "static/css/2.7cd5cc06.chunk.css",
     "static/js/2.90763ab2.chunk.js",
-    "static/css/main.08d70b78.chunk.css",
-    "static/js/main.17983b8a.chunk.js"
+    "static/css/main.5c3ae03e.chunk.css",
+    "static/js/main.2040089e.chunk.js"
   ]
 }
