@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/air-kiosk/static/css/main.52bc1ec7.chunk.css",
-    "main.js": "/air-kiosk/static/js/main.2040089e.chunk.js",
-    "main.js.map": "/air-kiosk/static/js/main.2040089e.chunk.js.map",
+    "main.css": "/air-kiosk/static/css/main.686fe557.chunk.css",
+    "main.js": "/air-kiosk/static/js/main.fdd061aa.chunk.js",
+    "main.js.map": "/air-kiosk/static/js/main.fdd061aa.chunk.js.map",
     "runtime-main.js": "/air-kiosk/static/js/runtime-main.8e953ca7.js",
     "runtime-main.js.map": "/air-kiosk/static/js/runtime-main.8e953ca7.js.map",
     "static/css/2.7cd5cc06.chunk.css": "/air-kiosk/static/css/2.7cd5cc06.chunk.css",
     "static/js/2.90763ab2.chunk.js": "/air-kiosk/static/js/2.90763ab2.chunk.js",
     "static/js/2.90763ab2.chunk.js.map": "/air-kiosk/static/js/2.90763ab2.chunk.js.map",
     "index.html": "/air-kiosk/index.html",
-    "precache-manifest.de60f580f9f3088761753233d8ac795b.js": "/air-kiosk/precache-manifest.de60f580f9f3088761753233d8ac795b.js",
+    "precache-manifest.f43f8d99bbcd5d2afe7e51850271f97c.js": "/air-kiosk/precache-manifest.f43f8d99bbcd5d2afe7e51850271f97c.js",
     "service-worker.js": "/air-kiosk/service-worker.js",
     "static/css/2.7cd5cc06.chunk.css.map": "/air-kiosk/static/css/2.7cd5cc06.chunk.css.map",
-    "static/css/main.52bc1ec7.chunk.css.map": "/air-kiosk/static/css/main.52bc1ec7.chunk.css.map",
+    "static/css/main.686fe557.chunk.css.map": "/air-kiosk/static/css/main.686fe557.chunk.css.map",
     "static/js/2.90763ab2.chunk.js.LICENSE.txt": "/air-kiosk/static/js/2.90763ab2.chunk.js.LICENSE.txt",
     "static/media/Carousel-1.jpg": "/air-kiosk/static/media/Carousel-1.06224f05.jpg",
     "static/media/Carousel-2.jpg": "/air-kiosk/static/media/Carousel-2.6d65ec4f.jpg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.8e953ca7.js",
     "static/css/2.7cd5cc06.chunk.css",
     "static/js/2.90763ab2.chunk.js",
-    "static/css/main.52bc1ec7.chunk.css",
-    "static/js/main.2040089e.chunk.js"
+    "static/css/main.686fe557.chunk.css",
+    "static/js/main.fdd061aa.chunk.js"
   ]
 }
