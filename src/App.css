@@ -1,0 +1,11 @@
+.center-width {
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+
+html{
+    font-size: 16px;
+    min-width: 300px;
+}

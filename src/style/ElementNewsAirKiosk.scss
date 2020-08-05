@@ -1,0 +1,51 @@
+@import "./ACommonStyles.scss";
+
+.element-news {
+    @include SectionsCentralPosition;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        height: 150px;
+        width: auto;
+        overflow: hidden;
+    }
+
+    h6 {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        color: #193171;
+        margin-top: 0.5rem;
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 0.8rem;
+        text-align: center;
+        margin-top: -0.2rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 0.5rem;
+        line-height: 0.3rem;
+        color: rgb(46, 43, 43);
+    }
+
+    .price-current {
+        font-size: 0.9rem;
+        color: rgb(46, 43, 43);
+    }
+    .img-container {
+        margin: 10px 10px 0px 10px;
+    }
+}
+
+@media (max-width: 530px) {
+    .price-current {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+}

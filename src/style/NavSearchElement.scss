@@ -1,0 +1,77 @@
+@import "./ACommonStyles.scss";
+
+#searchingInNav {
+    .nav-search-form {
+        min-width: 100px;
+        min-height: 24px;
+        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        background-color: $primaryColorGrey;
+        border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+
+        input {
+            width: -webkit-fill-available;
+            height: 100%;
+            border: none;
+            margin-left: 2px;
+            opacity: 100%;
+            background-color: $primaryColorGrey;
+
+        
+        }
+
+        input:focus {
+            background-color: lightgrey;
+            border: none;
+        }
+
+        button {
+            padding: 0;
+            width: 15%;
+
+            border-radius: unset;
+            border: none;
+        }
+    }
+}
+
+//media querry - mniejszy ekran:
+
+#dropdown-basic {
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75);
+    background-color: $primaryColor;
+    border: none;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 1rem;
+}
+
+#dropdown-basic:hover {
+    -webkit-box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.75);
+}
+@media (max-width: 700px) {
+    #searchingInNav {
+        width: auto;
+        background-color: $primaryColorGrey;
+        border-radius: 0.5rem;
+        margin-right: 0.5rem;
+        button {
+            margin: 0;
+            width: 4.5rem;
+            background-color: $primaryColorGrey;
+        }
+    }
+}

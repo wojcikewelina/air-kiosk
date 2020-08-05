@@ -1,0 +1,15 @@
+
+
+//położenie na divie:
+
+.div-covering {
+  top: -5vw;
+  margin-bottom: -2vw;
+}
+
+@media screen and (max-width: 755px)  {
+  .div-covering {
+    top: 0px;
+    margin-bottom: 0px;
+  }
+}

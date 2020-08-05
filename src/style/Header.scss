@@ -1,0 +1,123 @@
+@import "./ACommonStyles.scss";
+
+header {
+  color: $primaryColor;
+
+  .header-top {
+    margin-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $primaryColorGrey;
+    font-weight: 500;
+    color: $primaryColor;
+
+    .my-account-div {
+      display: flex;
+      font-size: small;
+
+      justify-content: flex-end;
+
+      span {
+        margin: 2px;
+
+        .chart-icon {
+          margin-left: 1rem;
+        }
+      }
+
+      label {
+        margin-bottom: 0;
+        select {
+          border: none;
+          background-color: white;
+          font-size: small;
+          font-weight: 500;
+          color: $primaryColor;
+
+          option {
+            padding: 0;
+          }
+        }
+      }
+    }
+
+    #country-select {
+      margin-left: 20px;
+    }
+  }
+
+  .header-bottom {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .lot-logo {
+    background: url(https://airkiosk.lot.com/themes/airkiosk-v-2/assets/img/pl_PL.png);
+    height: 76px;
+    width: 116px;
+    margin: 20px;
+  }
+
+  .plane-icon {
+    height: 50px;
+  }
+
+  .my-reserv-div {
+    display: flex;
+    align-items: center;
+  }
+
+  .reserv-number {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    align-items: center;
+    margin-top: -0.3rem;
+
+    a {
+      color: $primaryColor;
+      text-decoration-line: underline;
+      font-size: xx-small;
+    }
+  }
+}
+
+@media (max-width: 833px) {
+  header {
+    .header-top {
+      .my-account-div {
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+@media (max-width: 828px) {
+  .my-reserv-div {
+    width: 256px;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 611px) {
+  .plane-icon {
+    width: 0;
+    visibility: hidden;
+  }
+
+  .reserv-text {
+    font-size: 0.8rem;
+    min-width: 136px;
+  }
+  .reserv-number {
+    font-size: 0.7rem;
+  }
+  header {
+    .lot-logo {
+      margin: 12px 0px 5px 10px;
+    }
+  }
+}

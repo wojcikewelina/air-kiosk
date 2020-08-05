@@ -1,0 +1,152 @@
+@import "./SectionShopingOptions.scss";
+// Used circle-div class oraz $primaryColor from imported scss file
+
+@mixin div-parameters() {
+    height: 120px;
+    margin: 5px;
+}
+
+$buttonheight: 32px;
+
+.newsletter {
+    display: flex;
+    padding-left: 15%;
+
+    margin-top: 0.5rem;
+    background-image: url(https://thumbs.dreamstime.com/b/pi%C4%99kne-chmury-panorama-138382061.jpg);
+    background-size: cover;
+    color: $primaryColor;
+
+    .left-part {
+        width: 50%;
+        @include div-parameters();
+        display: flex;
+        align-items: center;
+        .description {
+            margin-left: 1%;
+
+            h3 {
+                margin-top: 2%;
+            }
+        }
+    }
+
+    .right-part {
+        width: 49%;
+        @include div-parameters();
+        font-size: small;
+        form {
+            position: relative;
+            display: flex;
+            max-width: 400px;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+
+            label {
+                display: flex;
+                flex: 1;
+            }
+        }
+
+        input[type="text"] {
+            flex: 1;
+            border: 1px solid lightgrey;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            height: $buttonheight;
+            font-size: 0.8rem;
+        }
+
+        button {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border: 0;
+            background: $primaryColor;
+            color: #fff;
+            height: $buttonheight;
+        }
+        input[type="checkbox"] {
+            margin: 0 0 0 5px;
+        }
+
+        input[type="checkbox"] + label {
+            font-weight: bold;
+            font-size: xx-small;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .newsletter {
+        padding-left: 5%;
+
+        .left-part {
+            .description {
+                h3 {
+                    font-size: 1.25rem;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+        .circle-div {
+            width: 60px;
+            height: 60px;
+
+            min-width: 60px;
+            min-height: 60px;
+        }
+    }
+}
+
+@media (max-width: 730px) {
+    .newsletter {
+        padding-left: 0%;
+
+        .left-part {
+            width: 59%;
+        }
+
+        .right-part {
+            width: 48%;
+            input[type="checkbox"] + label {
+                font-weight: 600;
+                font-size: 0.55rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .newsletter {
+        flex-direction: column;
+        align-items: center;
+
+        .left-part {
+            margin: 0;
+            width: 51%;
+            height: 100px;
+
+            min-width: 317px;
+
+            p {
+                margin: 0;
+            }
+        }
+
+        .right-part {
+            margin: 0 0 1rem 1rem;
+            width: 45%;
+            height: 100px;
+
+            min-width: 276px;
+
+            form {
+                margin-top: 1rem;
+            }
+        }
+    }
+}
