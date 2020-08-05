@@ -2,7 +2,6 @@
 
 #searchingInNav {
     .nav-search-form {
-        min-width: 100px;
         min-height: 24px;
         width: 100%;
         display: flex;
@@ -16,7 +15,7 @@
         -webkit-border-radius: 5px 5px 5px 5px;
 
         input {
-            width: -webkit-fill-available;
+            width: 80%;
             height: 100%;
             border: none;
             margin-left: 2px;
@@ -31,9 +30,19 @@
             border: none;
         }
 
+        .form-control::placeholder {
+            color: #132e71;
+          } /* Chrome, Firefox, Opera*/
+          :-ms-input-placeholder.form-control {
+            color: #132e71;
+          } /* Internet Explorer*/
+          .form-control::-ms-input-placeholder {
+            color: #132e71;
+          } /* Microsoft Edge*/
+
         button {
             padding: 0;
-            width: 15%;
+            width: 18%;
 
             border-radius: unset;
             border: none;

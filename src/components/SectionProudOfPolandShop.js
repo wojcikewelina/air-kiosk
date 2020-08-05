@@ -1,5 +1,6 @@
 import React from 'react';
 import "../style/ShopBarStyle.scss";
+import "../style/ShopBasicBox.scss";
 import "../style/SectionProudOfPoland.scss";
 
 import pic1 from "../pictures-icons/pop1.jpg"

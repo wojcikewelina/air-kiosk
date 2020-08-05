@@ -14,26 +14,37 @@ import SectionProudOfPolandShopMediaQ from "../components/SectionProudOfPolandSh
 
 class HomePage extends Component {
   render() {
-    return (<section>
-      <SectionSliderTop />
-      <Media queries={{ small: { maxWidth: 800 } }}>
-        {matches =>
-          matches.small ? (
-            <SectionJewelleryShopMediaQ />
-          ) : (
-              <SectionJewelleryShop classNameProps="shop-bar-style div-covering" />
-            )
-        }
-      </Media>
+    return (
+      <section>
+        <SectionSliderTop />
 
-     <SectionSpecialOffers />
-     {/* <SectionProudOfPolandShop classNameProps="shop-bar-style" /> */}
-      <SectionShopingOptions />
-        <SectionNewsCarousel/> 
-      <SectionNewsletter/>
-      {/* <SectionBottomMenu/>   */}
+        <Media queries={{ small: { maxWidth: 800 } }}>
+          {matches =>
+            matches.small ? (
+              <SectionJewelleryShopMediaQ />
+            ) : (
+                <SectionJewelleryShop classNameProps="shop-bar-style div-covering" />
+              )
+          }
+        </Media>
 
-    </section>
+        <SectionSpecialOffers />
+        <Media queries={{ small: { maxWidth: 900 } }}>
+          {matches =>
+            matches.small ? (
+              <SectionProudOfPolandShopMediaQ />
+            ) : (
+                <SectionProudOfPolandShop classNameProps="shop-bar-style" />
+              )
+          }
+        </Media>
+
+        <SectionShopingOptions />
+        <SectionNewsCarousel />
+        <SectionNewsletter />
+        <SectionBottomMenu />
+
+      </section>
     )
   }
 }

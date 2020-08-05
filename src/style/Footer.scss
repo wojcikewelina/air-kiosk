@@ -11,10 +11,12 @@ footer {
     font-weight: 600;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
     .left-part {
+        min-width: 340px;
         width: 40%;
 
         ul {
@@ -28,6 +30,7 @@ footer {
             li {
                 display: inline;
                 white-space: nowrap;
+                margin-right: 0.6rem;
             }
         }
     }
@@ -35,6 +38,7 @@ footer {
     .right-part {
         display: flex;
         align-items: center;
+        min-width: 330px;
 
         span {
             margin-right: 15px;
@@ -43,6 +47,35 @@ footer {
             width: auto;
             height: 25px;
             margin-left: 2px;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    footer {
+        .left-part {
+            min-width: 250px;
+
+            ul {
+                display: inline;
+                li {
+                    font-size: 0.7rem;
+                    margin-right: 0.35rem;
+                }
+            }
+        }
+        .right-part {
+            
+            min-width: 200px;
+    
+            span {
+                margin-right: 15px;
+            }
+            img {
+                
+                height: 15px;
+                margin-left: 1px;
+            }
         }
     }
 }

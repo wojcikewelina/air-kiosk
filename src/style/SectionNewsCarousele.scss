@@ -19,6 +19,7 @@ h5 {
 .slick-next:before,
 .slick-prev:before {
     color: black;
+    
 }
 
 .center {
@@ -28,6 +29,11 @@ h5 {
     .more-news-button {
         background-color: $primaryColor;
         color: white;
+        cursor: pointer;
+        border-radius: 9px;
+        margin: auto;
+        border: solid;
+
     }
 }
 

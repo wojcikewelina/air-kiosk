@@ -5,6 +5,8 @@
     align-items: center;
 }
 
+$min-bottom-div: 220px;
+
 $bottomMenuFontSize: smaller;
 
 .bottom-menu {
@@ -16,12 +18,15 @@ $bottomMenuFontSize: smaller;
     display: flex;
     justify-content: space-between;
     align-content: center;
+    flex-wrap: wrap;
+
 
     @include SectionsCentralPosition;
     height: 100%;
 
     > div {
         width: 20%;
+        min-width: $min-bottom-div;
 
         h6 {
             font-size: 1em;
@@ -33,6 +38,8 @@ $bottomMenuFontSize: smaller;
             list-style-type: none;
             padding: 0;
             font-size: $bottomMenuFontSize;
+
+            
         }
     }
     #thirdPart {
@@ -70,6 +77,15 @@ $bottomMenuFontSize: smaller;
                 height: 100%;
                 width: auto;
             }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .bottom-menu {
+        > div > div h6 {
+            margin-bottom: 1rem;
+            margin-top: 1.2rem;
         }
     }
 }

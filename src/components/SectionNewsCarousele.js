@@ -88,9 +88,11 @@ export default class Resizable extends Component {
             display: this.state.display ? "block" : "none"
           }}
         >
-          <Slider {...settings}>
+          <Slider {...settings}> 
             {allNewsElements}
           </Slider>
+
+
 
         </div>
         <div className="center"><button className="more-news-button">Więcej nowości&gt;</button></div>

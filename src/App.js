@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
 import Header from "./components/Header";
 import NavigationBar from "./components/navigationBar"
 import TestPage from './views/TestPage';
@@ -29,7 +27,7 @@ function App() {
           <Route path="/new" component={TestPage} />
           <Route path="/sale" component={TestPage} />
         </Switch>
-        {/* <Footer/> */}
+         <Footer/> 
       </HashRouter>
       
     </div>

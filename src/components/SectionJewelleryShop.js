@@ -19,7 +19,7 @@ const SectionJewelleryShop = (props) => {
         src={"https://s1.artelioni.pl/products/jewellery/packshot/31631/apart-ar522-2784--0.jpg"}
         classNameProps="shop-standard-box div-covering"
         name={"BRANSOLETKA VISANTI"}
-        pDescription={"perły łososiowe hodowane, słodkowodne 4-5mm, zapięcie srebrne"}
+        pDescription={"perły łososiowe hodowane, słodkowodne 4-5mm, srebrne"}
         priceCurrent={"79,00"}
         priceBefore={"83,00"}
       />
@@ -27,7 +27,7 @@ const SectionJewelleryShop = (props) => {
         src={"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdSQU0TPqDr3ZDv4zJ_yyAG2CwyKnLWJs3pw&usqp=CAU"}
         classNameProps="shop-standard-box div-covering"
         name={"PIERŚCIONEK VISANTI"}
-        pDescription={"srebrny z białą perłą słodkowodną ok. 6 mm"}
+        pDescription={"srebrny pierścionek z białą perłą słodkowodną,  ok. 6 mm"}
         priceCurrent={"89,00"}
         priceBefore={"129,00"}
       />
@@ -35,7 +35,7 @@ const SectionJewelleryShop = (props) => {
         classNameProps="shop-standard-box div-covering"
         src={"https://s1.apart.pl/products/jewellery/packshot/28236/apart-ar128-7566--0.jpg"}
         name={"NASZYJNIK"}
-        pDescription={"z perłą shell wielkości 20 mm w kolorze białym"}
+        pDescription={"Naszyjnik z perłą shell wielkości 20 mm w kolorze białym"}
         priceCurrent={"149,00"}
         priceBefore={"189,00"}
       />
