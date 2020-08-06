@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/air-kiosk/static/css/main.a383ec47.chunk.css",
+    "main.css": "/air-kiosk/static/css/main.58f0329d.chunk.css",
     "main.js": "/air-kiosk/static/js/main.b48c1dd2.chunk.js",
     "main.js.map": "/air-kiosk/static/js/main.b48c1dd2.chunk.js.map",
     "runtime-main.js": "/air-kiosk/static/js/runtime-main.8e953ca7.js",
@@ -9,10 +9,10 @@
     "static/js/2.e2f594d6.chunk.js": "/air-kiosk/static/js/2.e2f594d6.chunk.js",
     "static/js/2.e2f594d6.chunk.js.map": "/air-kiosk/static/js/2.e2f594d6.chunk.js.map",
     "index.html": "/air-kiosk/index.html",
-    "precache-manifest.c0f10e5811b9d8a80e2d04b6062ab62d.js": "/air-kiosk/precache-manifest.c0f10e5811b9d8a80e2d04b6062ab62d.js",
+    "precache-manifest.43db48b1b0e5afb7fe79004fdac24071.js": "/air-kiosk/precache-manifest.43db48b1b0e5afb7fe79004fdac24071.js",
     "service-worker.js": "/air-kiosk/service-worker.js",
     "static/css/2.7cd5cc06.chunk.css.map": "/air-kiosk/static/css/2.7cd5cc06.chunk.css.map",
-    "static/css/main.a383ec47.chunk.css.map": "/air-kiosk/static/css/main.a383ec47.chunk.css.map",
+    "static/css/main.58f0329d.chunk.css.map": "/air-kiosk/static/css/main.58f0329d.chunk.css.map",
     "static/js/2.e2f594d6.chunk.js.LICENSE.txt": "/air-kiosk/static/js/2.e2f594d6.chunk.js.LICENSE.txt",
     "static/media/Carousel-1.jpg": "/air-kiosk/static/media/Carousel-1.06224f05.jpg",
     "static/media/Carousel-2.jpg": "/air-kiosk/static/media/Carousel-2.6d65ec4f.jpg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.8e953ca7.js",
     "static/css/2.7cd5cc06.chunk.css",
     "static/js/2.e2f594d6.chunk.js",
-    "static/css/main.a383ec47.chunk.css",
+    "static/css/main.58f0329d.chunk.css",
     "static/js/main.b48c1dd2.chunk.js"
   ]
 }
