@@ -38,7 +38,7 @@ $primaryColor: #193171;
         }
     }
 
-    p{
+    p {
         font-size: small;
     }
 
@@ -51,5 +51,18 @@ $primaryColor: #193171;
         border-radius: 1px;
         background-color: $primaryColor;
         height: 2.2vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-proudOP-box {
+        .text-shop-box {
+            h5 {
+                font-size: 1.8rem;
+            }
+        }
+        img {
+            width: 65%;
+        }
     }
 }

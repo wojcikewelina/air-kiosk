@@ -17,9 +17,7 @@ $bottomMenuFontSize: smaller;
 .bottom-menu > div {
     display: flex;
     justify-content: space-between;
-    align-content: center;
     flex-wrap: wrap;
-
 
     @include SectionsCentralPosition;
     height: 100%;
@@ -38,8 +36,6 @@ $bottomMenuFontSize: smaller;
             list-style-type: none;
             padding: 0;
             font-size: $bottomMenuFontSize;
-
-            
         }
     }
     #thirdPart {
@@ -83,9 +79,16 @@ $bottomMenuFontSize: smaller;
 
 @media (max-width: 1000px) {
     .bottom-menu {
-        > div > div h6 {
-            margin-bottom: 1rem;
-            margin-top: 1.2rem;
+        text-align: center;
+        > div {
+            justify-content: center;
+            > div h6 {
+                margin-bottom: 1rem;
+                margin-top: 1.2rem;
+            }
+        }
+        #thirdPart .phone-number,.contact-form {
+            justify-content: center;
         }
     }
 }

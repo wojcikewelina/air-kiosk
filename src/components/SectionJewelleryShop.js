@@ -9,14 +9,14 @@ import ShopStandardBox from "./ShopStandardBox"
 const SectionJewelleryShop = (props) => {
   return (
     <div className={props.classNameProps}>
-      <ShopMainBox src="https://bnsec.bluenile.com/bluenile/is/image/bluenile/-akoya-pearl-necklace-18k-white-gold-/40941_main?$phab_detailmain$"
+      <ShopMainBox src="https://s1.apart.pl/products/jewellery/packshot/34825/apart-ap523-9781--0.jpg"
         classNameProps="shop-main-box div-covering"
         mainName="BIŻUTERIA VISANTI"
         pValue="Produkty z oferty SHOP&MORE z dostawa pod wskazany adres do Polski"
         buttonText="Poznaj cała kolekcję >"
       />
       <ShopStandardBox
-        src={"https://s1.artelioni.pl/products/jewellery/packshot/31631/apart-ar522-2784--0.jpg"}
+        src={"https://s1.apart.pl/products/jewellery/packshot/26264/apart-ap127-9769--0.jpg"}
         classNameProps="shop-standard-box div-covering"
         name={"BRANSOLETKA VISANTI"}
         pDescription={"perły łososiowe hodowane, słodkowodne 4-5mm, srebrne"}
@@ -24,7 +24,7 @@ const SectionJewelleryShop = (props) => {
         priceBefore={"83,00"}
       />
       <ShopStandardBox
-        src={"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdSQU0TPqDr3ZDv4zJ_yyAG2CwyKnLWJs3pw&usqp=CAU"}
+        src={"https://s1.apart.pl/products/jewellery/packshot/33856/apart-ap523-1056--0.jpg"}
         classNameProps="shop-standard-box div-covering"
         name={"PIERŚCIONEK VISANTI"}
         pDescription={"srebrny pierścionek z białą perłą słodkowodną,  ok. 6 mm"}
@@ -33,7 +33,7 @@ const SectionJewelleryShop = (props) => {
       />
       <ShopStandardBox
         classNameProps="shop-standard-box div-covering"
-        src={"https://s1.apart.pl/products/jewellery/packshot/28236/apart-ar128-7566--0.jpg"}
+        src={"https://s1.apart.pl/products/jewellery/packshot/22277/apart-103-582--0.jpg"}
         name={"NASZYJNIK"}
         pDescription={"Naszyjnik z perłą shell wielkości 20 mm w kolorze białym"}
         priceCurrent={"149,00"}

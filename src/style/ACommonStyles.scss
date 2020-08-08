@@ -4,5 +4,11 @@ margin: auto;
 max-width: 1120px;
 }
 
+@mixin PriceStyle{
+    color: darkslategrey;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
 $primaryColor: #193171;
 $primaryColorGrey: #f0f0f0;

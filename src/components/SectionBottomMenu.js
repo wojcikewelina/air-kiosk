@@ -55,7 +55,7 @@ class SectionBottomMenu extends Component {
                         <span className="credit-cards">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/1200px-MasterCard_Logo.svg.png" alt="master-card" />
                             <img src="https://purepng.com/public/uploads/large/purepng.com-visa-logologobrand-logoiconslogos-251519938794uqvcz.png" alt="visa-card" />
-                            <img src="https://lh3.googleusercontent.com/proxy/QDfa6vIg65-q1ZwyV4mVjlS5S85lySIv7fFst_bwMSM38A4rHpxI1vdNMWTDjawI7tNKmBVB15_NrHylp9yPhVSeJvn95NuQmIIlqDwSkOVsTi9_-p0wkTDjlyI" alt="pay-pal" />
+                            <img src="https://www.freepnglogos.com/uploads/paypal-logo-png-7.png" alt="pay-pal" />
                         </span>
                         <span className="credit-cards">
                             <img src="https://www.jing.fm/clipimg/full/180-1801334_free-vector-maestro-logo-logo-visa-mastercard-vector.png" alt="maestro-card" />
