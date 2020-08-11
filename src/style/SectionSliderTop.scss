@@ -20,6 +20,17 @@
 .carousel-indicators {
     bottom: 3vw;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .active {
+        opacity: 1;
+        width: 5px;
+        height: 5px;
+        border: 2px solid wheat;
+        background: transparent;
+    }
+
     li {
         width: 10px;
         height: 10px;
@@ -29,7 +40,7 @@
 
 @media screen and (max-width: 1090px) {
     .carousel {
-        width:100%;
+        width: 100%;
         margin: auto;
     }
     .carousel-indicators {
@@ -117,9 +128,10 @@
 @media screen and (max-width: 470px) {
     .carousel {
         min-width: 330px;
+        
     }
     .carousel-caption {
-       // background-color: red;
+        // background-color: red;
         margin: auto;
         bottom: 7%;
 

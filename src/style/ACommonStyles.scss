@@ -1,13 +1,19 @@
-@mixin SectionsCentralPosition{
-Width: 90%;
-margin: auto;
-max-width: 1120px;
+@mixin SectionsCentralPosition {
+    width: 90%;
+    margin: auto;
+    max-width: 1120px;
 }
 
-@mixin PriceStyle{
+@mixin PriceStyle() {
     color: darkslategrey;
     font-weight: 600;
     font-size: 1.2rem;
+}
+
+@mixin ShopBoxTransform() {
+    transform: scale(1.05);
+    // -webkit-transform: scale(1.05);
+    // -moz-transform: scale(1.05);
 }
 
 $primaryColor: #193171;

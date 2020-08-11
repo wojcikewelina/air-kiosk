@@ -19,10 +19,7 @@
             height: 100%;
             border: none;
             margin-left: 2px;
-            opacity: 100%;
             background-color: $primaryColorGrey;
-
-        
         }
 
         input:focus {
@@ -32,13 +29,13 @@
 
         .form-control::placeholder {
             color: #132e71;
-          } /* Chrome, Firefox, Opera*/
-          :-ms-input-placeholder.form-control {
+        } /* Chrome, Firefox, Opera*/
+        :-ms-input-placeholder.form-control {
             color: #132e71;
-          } /* Internet Explorer*/
-          .form-control::-ms-input-placeholder {
+        } /* Internet Explorer*/
+        .form-control::-ms-input-placeholder {
             color: #132e71;
-          } /* Microsoft Edge*/
+        } /* Microsoft Edge*/
 
         button {
             padding: 0;

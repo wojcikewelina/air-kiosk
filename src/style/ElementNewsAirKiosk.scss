@@ -42,6 +42,10 @@
     }
 }
 
+.element-news:hover {
+    @include ShopBoxTransform();
+}
+
 @media (max-width: 530px) {
     .price-current {
         font-size: 0.8rem;

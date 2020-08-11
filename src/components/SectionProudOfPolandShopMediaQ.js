@@ -8,7 +8,6 @@ import "../style/SectionNewsCarousele.scss";
 import pic1 from "../pictures-icons/pop1.jpg"
 import pic2 from "../pictures-icons/pop2.jpg"
 import pic3 from "../pictures-icons/pop3.jpg"
-import pic4 from "../pictures-icons/pop4.jpg"
 
 import ElementNewsAirKiosk from "./ElementNewsAirKiosk.js"
 

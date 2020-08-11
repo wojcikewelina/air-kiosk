@@ -77,6 +77,10 @@ $bottomMenuFontSize: smaller;
     }
 }
 
+.bottom-menu li:hover, .phone-span div:hover{
+text-decoration: underline;
+}
+
 @media (max-width: 1000px) {
     .bottom-menu {
         text-align: center;

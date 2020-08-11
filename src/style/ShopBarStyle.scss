@@ -27,6 +27,7 @@
 $primaryColor: #193171;
 
 .shop-bar-style {
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -35,8 +36,10 @@ $primaryColor: #193171;
     width: 90%;
     margin-left: 5%;
     margin-top: 7px;
+    margin-bottom: 1rem;
 
     .shop-standard-box {
+        
         @include singleBoxPosition();
         background-color: white;
         img {
@@ -81,6 +84,7 @@ $primaryColor: #193171;
                 @include PriceStyle();
             }
         }
+       
     }
     .shop-main-box {
         @include singleBoxPosition();
@@ -133,7 +137,13 @@ $primaryColor: #193171;
             margin: auto;
             padding-bottom: 1rem;
         }
+        
     }
+}
+
+
+.shop-standard-box:hover, .shop-main-box:hover {
+    @include ShopBoxTransform();
 }
 
 
