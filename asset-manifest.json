@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/air-kiosk/static/css/main.16227257.chunk.css",
-    "main.js": "/air-kiosk/static/js/main.bc5c2191.chunk.js",
-    "main.js.map": "/air-kiosk/static/js/main.bc5c2191.chunk.js.map",
+    "main.css": "/air-kiosk/static/css/main.77ca70ff.chunk.css",
+    "main.js": "/air-kiosk/static/js/main.0073a4cf.chunk.js",
+    "main.js.map": "/air-kiosk/static/js/main.0073a4cf.chunk.js.map",
     "runtime-main.js": "/air-kiosk/static/js/runtime-main.8e953ca7.js",
     "runtime-main.js.map": "/air-kiosk/static/js/runtime-main.8e953ca7.js.map",
     "static/css/2.7cd5cc06.chunk.css": "/air-kiosk/static/css/2.7cd5cc06.chunk.css",
-    "static/js/2.e2f594d6.chunk.js": "/air-kiosk/static/js/2.e2f594d6.chunk.js",
-    "static/js/2.e2f594d6.chunk.js.map": "/air-kiosk/static/js/2.e2f594d6.chunk.js.map",
+    "static/js/2.07e99fe7.chunk.js": "/air-kiosk/static/js/2.07e99fe7.chunk.js",
+    "static/js/2.07e99fe7.chunk.js.map": "/air-kiosk/static/js/2.07e99fe7.chunk.js.map",
     "index.html": "/air-kiosk/index.html",
-    "precache-manifest.061234cb19103f3d9615549f8a75f436.js": "/air-kiosk/precache-manifest.061234cb19103f3d9615549f8a75f436.js",
+    "precache-manifest.76c32313bdeac8ff344c4a912e0778e5.js": "/air-kiosk/precache-manifest.76c32313bdeac8ff344c4a912e0778e5.js",
     "service-worker.js": "/air-kiosk/service-worker.js",
     "static/css/2.7cd5cc06.chunk.css.map": "/air-kiosk/static/css/2.7cd5cc06.chunk.css.map",
-    "static/css/main.16227257.chunk.css.map": "/air-kiosk/static/css/main.16227257.chunk.css.map",
-    "static/js/2.e2f594d6.chunk.js.LICENSE.txt": "/air-kiosk/static/js/2.e2f594d6.chunk.js.LICENSE.txt",
+    "static/css/main.77ca70ff.chunk.css.map": "/air-kiosk/static/css/main.77ca70ff.chunk.css.map",
+    "static/js/2.07e99fe7.chunk.js.LICENSE.txt": "/air-kiosk/static/js/2.07e99fe7.chunk.js.LICENSE.txt",
     "static/media/Carousel-1.jpg": "/air-kiosk/static/media/Carousel-1.0fba7533.jpg",
     "static/media/Carousel-2.jpg": "/air-kiosk/static/media/Carousel-2.5de315e4.jpg",
     "static/media/Carousel-3.jpg": "/air-kiosk/static/media/Carousel-3.691929f8.jpg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.8e953ca7.js",
     "static/css/2.7cd5cc06.chunk.css",
-    "static/js/2.e2f594d6.chunk.js",
-    "static/css/main.16227257.chunk.css",
-    "static/js/main.bc5c2191.chunk.js"
+    "static/js/2.07e99fe7.chunk.js",
+    "static/css/main.77ca70ff.chunk.css",
+    "static/js/main.0073a4cf.chunk.js"
   ]
 }
