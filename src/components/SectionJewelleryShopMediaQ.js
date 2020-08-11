@@ -7,15 +7,15 @@ const SectionJewelleryShopMediaQ = () => {
       <div>
         <span>
           <img src="https://s1.artelioni.pl/products/jewellery/packshot/31631/apart-ar522-2784--0.jpg" />
-          <h5>BRANSOLETKA VISANTI</h5>
+          <h5>BRANSOLETKA<br/>VISANTI</h5>
           <div className="mq-price">279,00 PLN</div>
         </span><span>
           <img src="https://s1.apart.pl/products/jewellery/packshot/33856/apart-ap523-1056--0.jpg" />
-          <h5>PIERŚCIONEK VISANTI</h5>
+          <h5>PIERŚCIONEK<br/>VISANTI</h5>
           <div className="mq-price">129,00 PLN</div>
         </span><span>
           <img src="https://s1.apart.pl/products/jewellery/packshot/26264/apart-ap127-9769--0.jpg" />
-          <h5>NASZYJNIK VISANTI</h5>
+          <h5>NASZYJNIK<br/>VISANTI</h5>
           <div className="mq-price">169,00 PLN</div>
         </span>
       </div>

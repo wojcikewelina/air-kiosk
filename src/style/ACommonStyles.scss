@@ -12,8 +12,8 @@
 
 @mixin ShopBoxTransform() {
     transform: scale(1.05);
-    // -webkit-transform: scale(1.05);
-    // -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
 }
 
 $primaryColor: #193171;

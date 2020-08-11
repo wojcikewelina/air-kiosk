@@ -1,7 +1,6 @@
 @import "./ACommonStyles.scss";
 
 .shop-basic-box {
-   
     width: 23%;
     min-width: 170px;
 
@@ -18,8 +17,8 @@
 }
 
 .shop-basic-box:hover {
-        @include ShopBoxTransform();
-    }
+    @include ShopBoxTransform();
+}
 
 @media (min-width: 1200px) {
     .shop-basic-box h6 {

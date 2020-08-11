@@ -19,17 +19,17 @@ const SectionProudOfPolandShop = (props) => {
 
             <ShopBasicBox
                 src={pic1}
-                name={"BUDZIK ŁOWICKI \nW KOLORZE BIAŁYM"}
+                name={"BUDZIK ŁOWICKI W\nKOLORZE BIAŁYM"}
                 priceCurrent={"59,00 PLN"}
             />
             <ShopBasicBox
                 src={pic2}
-                name={"MAGNES ŁOWICKI W KOLORZE BIAŁYM"}
+                name={"MAGNES ŁOWICKI W\nKOLORZE BIAŁYM"}
                 priceCurrent={"6,00 PLN"}
             />
             <ShopBasicBox
                 src={pic3}
-                name={"SMYCZ ŁOWICKA W KOLORZE CZARNYM"}
+                name={"SMYCZ ŁOWICKA W\nKOLORZE CZARNYM"}
                 priceCurrent={"10,00 PLN"}
             />
             <div className="main-proudOP-box">

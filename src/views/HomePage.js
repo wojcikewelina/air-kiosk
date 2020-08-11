@@ -10,14 +10,13 @@ import SectionNewsCarousel from "../components/SectionNewsCarousele";
 import SectionNewsletter from "../components/SectionNewsletter";
 import SectionBottomMenu from "../components/SectionBottomMenu";
 import SectionJewelleryShopMediaQ from '../components/SectionJewelleryShopMediaQ';
-import SectionProudOfPolandShopMediaQ from "../components/SectionProudOfPolandShopMediaQ"
+import SectionProudOfPolandShopMediaQ from "../components/SectionProudOfPolandShopMediaQ";
 
 class HomePage extends Component {
   render() {
     return (
       <section>
         <SectionSliderTop />
-
         <Media queries={{ small: { maxWidth: 800 } }}>
           {matches =>
             matches.small ? (
@@ -27,7 +26,6 @@ class HomePage extends Component {
               )
           }
         </Media>
-
         <SectionSpecialOffers />
         <Media queries={{ small: { maxWidth: 900 } }}>
           {matches =>
@@ -38,12 +36,10 @@ class HomePage extends Component {
               )
           }
         </Media>
-
         <SectionShopingOptions />
         <SectionNewsCarousel />
         <SectionNewsletter />
         <SectionBottomMenu />
-
       </section>
     )
   }

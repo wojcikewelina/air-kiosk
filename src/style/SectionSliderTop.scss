@@ -48,7 +48,6 @@
     }
     .carousel-caption {
         padding-bottom: 0px;
-        //background-color: green;
 
         p {
             width: 50%;
@@ -63,7 +62,6 @@
 
 @media screen and (max-width: 850px) {
     .carousel-caption {
-        //background-color: red;
         bottom: 22%;
         margin: auto;
     }
@@ -71,7 +69,6 @@
 
 @media screen and (max-width: 841px) {
     .carousel-caption {
-        //background-color: yellow;
         bottom: 17%;
 
         p {
@@ -93,7 +90,6 @@
         min-width: 300px;
     }
     .carousel-caption {
-        //background-color: goldenrod;
         margin: auto;
         bottom: 15%;
 
@@ -128,10 +124,8 @@
 @media screen and (max-width: 470px) {
     .carousel {
         min-width: 330px;
-        
     }
     .carousel-caption {
-        // background-color: red;
         margin: auto;
         bottom: 7%;
 

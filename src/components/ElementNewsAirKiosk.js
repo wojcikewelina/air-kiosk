@@ -2,8 +2,6 @@ import React from "react";
 import "../style/ElementNewsAirKiosk.scss";
 
 
-
-
 const ElementNewsAirKiosk = props => {
     return (
         <div className="element-news">
@@ -15,7 +13,7 @@ const ElementNewsAirKiosk = props => {
             <div className="price-part">
                 <span className="price-current">{props.price} PLN</span>
             </div>
-        </div> 
+        </div>
     );
 };
 

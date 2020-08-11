@@ -1,8 +1,7 @@
 import React from "react";
 import "../style/Header.scss";
 
-import { FaUserAlt,FaShoppingCart} from "react-icons/fa";
-
+import { FaUserAlt, FaShoppingCart } from "react-icons/fa";
 import PlaneIcon from "../pictures-icons/PlaneIcon";
 import { NavLink } from "react-router-dom";
 
@@ -12,22 +11,12 @@ const Header = () => {
     return (
         <header className="center-width">
             <div className="header-top">
-              
-              
-              
-              
                 <div></div>
                 <div className="my-account-div">
                     <label>
-                        <span>
-                        <FaUserAlt/>
-                        </span>
+                        <span><FaUserAlt /></span>
                         <span>Moje konto</span>
-
-                        <span className="chart-icon">
-                        <FaShoppingCart/>
-
-                        </span>
+                        <span className="chart-icon"><FaShoppingCart /></span>
                         <span>0 PLN</span>
                     </label>
                     <label>
@@ -38,12 +27,12 @@ const Header = () => {
                                 <option value="de">DE</option>
                                 <option value="usa">EN</option>
                             </select>
-                        <select name="currency" id="currency-select">
-                            <option value="pln">PLN</option>
-                            <option value="gbp">GBP</option>
-                            <option value="eur">EUR</option>
-                            <option value="usd">USD</option>
-                        </select>
+                            <select name="currency" id="currency-select">
+                                <option value="pln">PLN</option>
+                                <option value="gbp">GBP</option>
+                                <option value="eur">EUR</option>
+                                <option value="usd">USD</option>
+                            </select>
                         </span>
                     </label>
                 </div>
@@ -61,7 +50,8 @@ const Header = () => {
                         <div className="reserv-text">Numer twojej rezerwacji</div>
                         <div className="reserv-number">
                             <span>233A2455</span>
-                            <a href=""><span>zmień</span></a></div>
+                            <a href=""><span>zmień</span></a>
+                        </div>
                     </div>
                 </div>
             </div>

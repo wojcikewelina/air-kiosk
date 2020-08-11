@@ -4,17 +4,12 @@ import "../style/SectionBottomMenu.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
-
-
-
 class SectionBottomMenu extends Component {
     render() {
         return (
-
             <section className="bottom-menu">
                 <div>
                     <div id="firstPart">
-
                         <h6>PRZYDATNE INFORMACJE</h6>
                         <ul>
                             <li>Regulamin Sklepu</li>
@@ -23,6 +18,7 @@ class SectionBottomMenu extends Component {
                             <li>Regulamin Aukcji</li>
                         </ul>
                     </div>
+
                     <div id="secondPart">
                         <h6>DLA KUPUJĄCEGO</h6>
                         <ul>
@@ -36,7 +32,6 @@ class SectionBottomMenu extends Component {
 
                     <div id="thirdPart">
                         <h6>KONTAKT</h6>
-
                         <div className="phone-number">
                             <FontAwesomeIcon color="black" icon={faPhoneAlt} size="2x" />
                             <span className="phone-span">
@@ -49,9 +44,9 @@ class SectionBottomMenu extends Component {
                             <a href="mailto:...">Formularz kontaktowy</a>
                         </div>
                     </div>
+
                     <div id="fourthPart">
                         <h6>METODY PŁATNOŚCI</h6>
-
                         <span className="credit-cards">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/1200px-MasterCard_Logo.svg.png" alt="master-card" />
                             <img src="https://purepng.com/public/uploads/large/purepng.com-visa-logologobrand-logoiconslogos-251519938794uqvcz.png" alt="visa-card" />

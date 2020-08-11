@@ -59,9 +59,6 @@ var sixthChoice =
     <li>Promocje</li>
   </NavLink>
 
-
-
-
 class NavigationBar extends Component {
   render() {
     return (
@@ -74,7 +71,6 @@ class NavigationBar extends Component {
                 <Dropdown.Toggle variant="success" id="dropdown-basic">
                   Menu
                 </Dropdown.Toggle>
-
                 <Dropdown.Menu>
                   <Dropdown.Item>{firstChoice}</Dropdown.Item>
                   <Dropdown.Item>{secondChoice}</Dropdown.Item>
@@ -85,7 +81,6 @@ class NavigationBar extends Component {
                 </Dropdown.Menu>
               </Dropdown>
             ) : (
-
                 <nav >
                   <ul className="nav-ul">
                     {firstChoice}
@@ -94,8 +89,6 @@ class NavigationBar extends Component {
                     {fourthChoice}
                     {fifthChoice}
                     {sixthChoice}
-
-
                   </ul>
                 </nav>
               )

@@ -12,8 +12,6 @@ const HASHTAG_NAME = "#AKCJALICYTACJA";
 const DESCRIPTION = "ceny biletów nowych europejskich kierunków w Twoich rękach!"
 function SectionSliderTop() {
 
-
-
   return (
     <Carousel>
       <Carousel.Item>

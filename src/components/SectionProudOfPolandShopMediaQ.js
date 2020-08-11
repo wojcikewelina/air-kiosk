@@ -22,8 +22,6 @@ export default class SectionProudOfPolandMdiaQ extends Component {
     };
   }
 
-  
-
   render() {
     const settings = {
       dots: false,
@@ -61,9 +59,9 @@ export default class SectionProudOfPolandMdiaQ extends Component {
         }]
     };
 
-    
-    
-     
+
+
+
 
     return (
       <div className="section-news-c">
@@ -76,32 +74,32 @@ export default class SectionProudOfPolandMdiaQ extends Component {
           }}
         >
           <Slider {...settings}>
-          
-          <ElementNewsAirKiosk
-            src={pic1}
-            name={"BUDZIK ŁOWICKI \nW KOLORZE BIAŁYM"}
-            pDescription={""}
-            price={"59,00 PLN"}
-          />
-          <ElementNewsAirKiosk
-            src={pic2}
-            name={"MAGNES ŁOWICKI W KOLORZE BIAŁYM"}
-            pDescription={""}
-            price={"59,00 PLN"}
-          /><ElementNewsAirKiosk
-          src={pic2}
-          name={"MAGNES ŁOWICKI W KOLORZE BIAŁYM"}
-          pDescription={""}
-          price={"59,00 PLN"}
-        />
-          <ElementNewsAirKiosk
-            src={pic3}
-            name={"SMYCZ ŁOWICKA W KOLORZE CZARNYM"}
-            pDescription={""}
-            price={"59,00 PLN"}
-          />
-          
-        
+
+            <ElementNewsAirKiosk
+              src={pic1}
+              name={"BUDZIK ŁOWICKI \nW KOLORZE BIAŁYM"}
+              pDescription={""}
+              price={"59,00 PLN"}
+            />
+            <ElementNewsAirKiosk
+              src={pic2}
+              name={"MAGNES ŁOWICKI W KOLORZE BIAŁYM"}
+              pDescription={""}
+              price={"59,00 PLN"}
+            /><ElementNewsAirKiosk
+              src={pic2}
+              name={"MAGNES ŁOWICKI W KOLORZE BIAŁYM"}
+              pDescription={""}
+              price={"59,00 PLN"}
+            />
+            <ElementNewsAirKiosk
+              src={pic3}
+              name={"SMYCZ ŁOWICKA W KOLORZE CZARNYM"}
+              pDescription={""}
+              price={"59,00 PLN"}
+            />
+
+
           </Slider>
 
         </div>

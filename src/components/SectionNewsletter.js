@@ -33,7 +33,6 @@ class SectionNewsletter extends Component {
                     </div>
                 </div>
                 <div>
-
                 </div>
             </section>
         )

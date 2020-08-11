@@ -7,8 +7,6 @@
     align-items: center;
 }
 
-
-
 .nav-ul {
     padding: 0px;
     margin-bottom: 0px;
@@ -19,29 +17,24 @@
     font-weight: 490;
 }
 
-.nav-element li{
+.nav-element li {
     display: inline;
     margin: 8px;
     color: $primaryColor;
     font-weight: 550;
 }
 
-.nav-element li:hover{
-font-weight: 610;
+.nav-element li:hover {
+    font-weight: 610;
 }
 
 .activ-nav-element li {
     color: $primaryColor;
     text-decoration: underline;
-    
 }
 
-@media (max-width: 1025px){
-
+@media (max-width: 1025px) {
     .navbar-section {
-       
         height: 55px;
-        
     }
-
 }

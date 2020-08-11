@@ -77,8 +77,9 @@ $bottomMenuFontSize: smaller;
     }
 }
 
-.bottom-menu li:hover, .phone-span div:hover{
-text-decoration: underline;
+.bottom-menu li:hover,
+.phone-span div:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 1000px) {
@@ -91,7 +92,8 @@ text-decoration: underline;
                 margin-top: 1.2rem;
             }
         }
-        #thirdPart .phone-number,.contact-form {
+        #thirdPart .phone-number,
+        .contact-form {
             justify-content: center;
         }
     }
