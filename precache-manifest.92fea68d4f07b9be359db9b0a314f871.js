@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4966e3db520a0d2505a4fac36ebfea1a",
+    "revision": "f0f799c6b61dab7e0d3e1dc4ad1ba8b0",
     "url": "/air-kiosk/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/air-kiosk/static/css/2.7cd5cc06.chunk.css"
   },
   {
-    "revision": "1925b839695842ea2bb4",
-    "url": "/air-kiosk/static/css/main.69d8d10f.chunk.css"
+    "revision": "a1101a6a45791c7f7efb",
+    "url": "/air-kiosk/static/css/main.21097746.chunk.css"
   },
   {
     "revision": "c131b0b4943240879b4c",
@@ -20,28 +20,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/air-kiosk/static/js/2.07e99fe7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1925b839695842ea2bb4",
-    "url": "/air-kiosk/static/js/main.1997dc39.chunk.js"
+    "revision": "a1101a6a45791c7f7efb",
+    "url": "/air-kiosk/static/js/main.5d926343.chunk.js"
   },
   {
     "revision": "7dc017cd7bb72f7e66b5",
     "url": "/air-kiosk/static/js/runtime-main.8e953ca7.js"
   },
   {
-    "revision": "0fba7533d2feb504b5e537e737d9cc26",
-    "url": "/air-kiosk/static/media/Carousel-1.0fba7533.jpg"
+    "revision": "efcecf5c4a8ce593f1c631e1cb606a71",
+    "url": "/air-kiosk/static/media/Carousel-1.efcecf5c.jpg"
   },
   {
-    "revision": "5de315e45f77f943562495e3738ed26a",
-    "url": "/air-kiosk/static/media/Carousel-2.5de315e4.jpg"
+    "revision": "52de16b2ad0ce7125a207cdcbb67acf1",
+    "url": "/air-kiosk/static/media/Carousel-2.52de16b2.jpg"
   },
   {
-    "revision": "691929f8efb4bc3b1911ebd09e4e155d",
-    "url": "/air-kiosk/static/media/Carousel-3.691929f8.jpg"
+    "revision": "6f796d1a4b56f4a232288de8a712f4a0",
+    "url": "/air-kiosk/static/media/Carousel-3.6f796d1a.jpg"
   },
   {
-    "revision": "9090a861053816b9c493a05658b4f7aa",
-    "url": "/air-kiosk/static/media/pop2.9090a861.jpg"
+    "revision": "85b3c127419a0f6e724c22fc4234f8ee",
+    "url": "/air-kiosk/static/media/pop1.85b3c127.jpg"
+  },
+  {
+    "revision": "c4aef25e61915d61b4bce7ec1e75948c",
+    "url": "/air-kiosk/static/media/pop3.c4aef25e.jpg"
   },
   {
     "revision": "6876a1d3118429ffc7d8a1329b801910",
