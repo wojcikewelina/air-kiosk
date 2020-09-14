@@ -77,18 +77,18 @@ export default class SectionProudOfPolandMdiaQ extends Component {
 
             <ElementNewsAirKiosk
               src={pic1}
-              name={"BUDZIK ŁOWICKI \nW KOLORZE BIAŁYM"}
+              name={"POMIDORKI \nW KOLORZE CZERWONYM"}
               pDescription={""}
               price={"59,00 PLN"}
             />
             <ElementNewsAirKiosk
               src={pic2}
-              name={"MAGNES ŁOWICKI W KOLORZE BIAŁYM"}
+              name={"POMARCZOWE OWOCE Z POLSKI"}
               pDescription={""}
               price={"59,00 PLN"}
             /><ElementNewsAirKiosk
               src={pic2}
-              name={"MAGNES ŁOWICKI W KOLORZE BIAŁYM"}
+              name={"POMIDORKI \nW KOLORZE CZERWONYM"}
               pDescription={""}
               price={"59,00 PLN"}
             />

@@ -19,17 +19,17 @@ const SectionProudOfPolandShop = (props) => {
 
             <ShopBasicBox
                 src={pic1}
-                name={"BUDZIK ŁOWICKI W\nKOLORZE BIAŁYM"}
+                name={"LOREM IPSUM\nKOLORZE BIAŁYM"}
                 priceCurrent={"59,00 PLN"}
             />
             <ShopBasicBox
                 src={pic2}
-                name={"MAGNES ŁOWICKI W\nKOLORZE BIAŁYM"}
+                name={"LOREM IPSUM\nKOLORZE BIAŁYM"}
                 priceCurrent={"6,00 PLN"}
             />
             <ShopBasicBox
                 src={pic3}
-                name={"SMYCZ ŁOWICKA W\nKOLORZE CZARNYM"}
+                name={"LOREM IPSUM\nKOLORZE CZARNYM"}
                 priceCurrent={"10,00 PLN"}
             />
             <div className="main-proudOP-box">
@@ -39,8 +39,8 @@ const SectionProudOfPolandShop = (props) => {
                     <h5>PROUD OF POLAND</h5>
                     <span className="text-line" />
                 </div>
-                <p>Zobacz jak możesz poznać Polske i odkryć jej niezwykłe piękno - poznaj nowoczesne wydanie tradycyjnego polskiego folkloru</p>
-                <button>Poznaj cała kolekcję</button>
+                <p>Zobacz jak możesz poznać wszystkie elementy - poznaj nowe lorem lorem ipsum lorem ipsum</p>
+                <button>Zobacz pozostale</button>
             </div>
         </div>
     )

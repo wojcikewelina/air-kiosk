@@ -13,20 +13,20 @@ class SectionBottomMenu extends Component {
                         <h6>PRZYDATNE INFORMACJE</h6>
                         <ul>
                             <li>Regulamin Sklepu</li>
-                            <li>Regulamin Aukcji biletów lotniczych</li>
+                            <li>Regulamin wyprzedaży</li>
                             <li>Regulamin Aukcji Bagażu</li>
                             <li>Regulamin Aukcji</li>
                         </ul>
                     </div>
 
                     <div id="secondPart">
-                        <h6>DLA KUPUJĄCEGO</h6>
+                        <h6>DLA UŻYTKOWNIKA</h6>
                         <ul>
                             <li>Pomoc</li>
                             <li>Sposoby dostawy</li>
-                            <li>Zwroty i gwarancje</li>
-                            <li>Oferta Miles More</li>
-                            <li>Mapa serwisu</li>
+                            <li>Zwroty</li>
+                            <li>Punkty</li>
+                            <li>Mapa</li>
                         </ul>
                     </div>
 

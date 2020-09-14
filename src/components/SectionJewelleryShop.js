@@ -9,33 +9,33 @@ import ShopStandardBox from "./ShopStandardBox"
 const SectionJewelleryShop = (props) => {
   return (
     <div className={props.classNameProps}>
-      <ShopMainBox src="https://s1.apart.pl/products/jewellery/packshot/34825/apart-ap523-9781--0.jpg"
+      <ShopMainBox src="https://images.unsplash.com/photo-1587334108051-1639d15a30e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60g"
         classNameProps="shop-main-box div-covering"
-        mainName="BIŻUTERIA VISANTI"
-        pValue="Produkty z oferty SHOP&MORE z dostawa pod wskazany adres do Polski"
+        mainName="SKLEP ONLINE"
+        pValue="Produkty z oferty sklepu z dostawa pod wskazany adres do Polski"
         buttonText="Poznaj cała kolekcję >"
       />
       <ShopStandardBox
-        src={"https://s1.apart.pl/products/jewellery/packshot/26264/apart-ap127-9769--0.jpg"}
+        src={"https://images.unsplash.com/photo-1587131782738-de30ea91a542?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"}
         classNameProps="shop-standard-box div-covering"
-        name={"BRANSOLETKA VISANTI"}
-        pDescription={"perły łososiowe hodowane, słodkowodne 4-5mm, srebrne"}
+        name={"CYNAMON"}
+        pDescription={"cynamon, laska, słodkowodne 4-5cm, aromat"}
         priceCurrent={"79,00"}
         priceBefore={"83,00"}
       />
       <ShopStandardBox
-        src={"https://s1.apart.pl/products/jewellery/packshot/33856/apart-ap523-1056--0.jpg"}
+        src={"https://images.unsplash.com/photo-1455134168668-4066045897c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"}
         classNameProps="shop-standard-box div-covering"
-        name={"PIERŚCIONEK VISANTI"}
-        pDescription={"srebrny pierścionek z białą perłą słodkowodną,  ok. 6 mm"}
+        name={"ZESTAW KAWOWY"}
+        pDescription={"zestaw do parzenia kawy, wersja limitowana"}
         priceCurrent={"89,00"}
         priceBefore={"129,00"}
       />
       <ShopStandardBox
         classNameProps="shop-standard-box div-covering"
-        src={"https://s1.apart.pl/products/jewellery/packshot/22277/apart-103-582--0.jpg"}
-        name={"NASZYJNIK"}
-        pDescription={"Naszyjnik z perłą shell wielkości 20 mm w kolorze białym"}
+        src={"https://images.unsplash.com/photo-1587302186428-d3753405ffed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"}
+        name={"KAWA"}
+        pDescription={"Czarna parzona, świeżo palone ziarna"}
         priceCurrent={"149,00"}
         priceBefore={"189,00"}
       />

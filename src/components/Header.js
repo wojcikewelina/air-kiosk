@@ -47,10 +47,10 @@ const Header = () => {
                 <div className="my-reserv-div">
                     <PlaneIcon />
                     <div>
-                        <div className="reserv-text">Numer twojej rezerwacji</div>
+                        <div className="reserv-text">Twój numer</div>
                         <div className="reserv-number">
-                            <span>233A2455</span>
-                            <a href=""><span>zmień</span></a>
+                            <span>00000000</span>
+                            <a href=""><span>edytuj</span></a>
                         </div>
                     </div>
                 </div>

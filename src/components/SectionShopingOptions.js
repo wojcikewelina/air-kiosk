@@ -14,19 +14,19 @@ class SectionShopingOptions extends Component {
 
                     <div className="option-div">
                         <div className="circle-div"><FontAwesomeIcon color="black" icon={faPlane} size="2x" /></div>
-                        <h6>DOSTAWA NA POKŁAD</h6>
+                        <h6>DOSTAWA</h6>
                     </div>
                     <div className="option-div">
                         <div className="circle-div"><FontAwesomeIcon color="black" icon={faCreditCard} size="2x" /></div>
-                        <h6>PATNOŚCI MILES&MORE</h6>
+                        <h6>PATNOŚCI</h6>
                     </div>
                     <div className="option-div">
                         <div className="circle-div"><FontAwesomeIcon color="black" icon={faDesktop} size="2x" /></div>
-                        <h6>PŁATNOŚCI ONLINE</h6>
+                        <h6>ZAKUPY</h6>
                     </div>
                     <div className="option-div">
                         <div className="circle-div"><FontAwesomeIcon color="black" icon={faEnvelope} size="2x" /></div>
-                        <h6>WYSYŁKA W&nbsp;24H</h6>
+                        <h6>WYSYŁKA</h6>
                     </div>
                 </div>
 

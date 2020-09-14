@@ -20,7 +20,7 @@ var secondChoice =
     activeClassName="activ-nav-element"
     className="nav-element"
     to="/home-delivery">
-    <li>Dostawa na adres</li>
+    <li>Wydarzenia</li>
   </NavLink>
 
 var thirdChoice =
@@ -29,7 +29,7 @@ var thirdChoice =
     activeClassName="activ-nav-element"
     className="nav-element"
     to="/services">
-    <li>Usługi</li>
+    <li>Oferta</li>
   </NavLink>
 
 var fourthChoice =
@@ -38,7 +38,7 @@ var fourthChoice =
     activeClassName="activ-nav-element"
     className="nav-element"
     to="/auctions">
-    <li>Aukcje</li>
+    <li>Zasoby</li>
   </NavLink>
 
 var fifthChoice =
@@ -47,7 +47,7 @@ var fifthChoice =
     activeClassName="activ-nav-element"
     className="nav-element"
     to="/new">
-    <li className="nav-button">Nowości</li>
+    <li className="nav-button">Kontakt</li>
   </NavLink>
 
 var sixthChoice =

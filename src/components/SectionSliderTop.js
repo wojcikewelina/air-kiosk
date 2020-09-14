@@ -8,8 +8,8 @@ import Picture3 from "../pictures-icons/Carousel-3.jpg"
 
 import '../style/SectionSliderTop.scss'
 
-const HASHTAG_NAME = "#AKCJALICYTACJA";
-const DESCRIPTION = "ceny biletów nowych europejskich kierunków w Twoich rękach!"
+const HASHTAG_NAME = "NOWE WYPRZEDAŻE";
+const DESCRIPTION = "kup dzisiaj wszystko co tylko zechcesz!"
 function SectionSliderTop() {
 
   return (
@@ -23,7 +23,7 @@ function SectionSliderTop() {
         <Carousel.Caption>
           <h3>{HASHTAG_NAME}</h3>
           <p>{DESCRIPTION}</p>
-          <button>Licytuj bilet</button>
+          <button>Sprawdź to!</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -36,7 +36,7 @@ function SectionSliderTop() {
         <Carousel.Caption>
         <h3>{HASHTAG_NAME}</h3>
           <p>{DESCRIPTION}</p>
-          <button>Licytuj bilet</button>
+          <button>Zobacz!</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -49,7 +49,7 @@ function SectionSliderTop() {
         <Carousel.Caption>
         <h3>{HASHTAG_NAME}</h3>
           <p>{DESCRIPTION}</p>
-          <button>Licytuj bilet</button>
+          <button>Wybierz!</button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -13,8 +13,8 @@ class SectionNewsletter extends Component {
                 <div className="left-part">
                     <div className="circle-div"><FontAwesomeIcon color="black" icon={faEnvelope} size="2x" /></div>
                     <div className="description">
-                        <h3>ZOSTAŃ ŁOWCĄ OKAZJI</h3>
-                        <p>Zostaw nam swój email i upoluj specjalne <br />oferty oraz zniżki na trasach LOT-u</p>
+                        <h3>ZOBACZ NOWE ZADANIA</h3>
+                        <p>Zostaw nam swój email i zobacz kolejne <br />wydarzenia z życia mieszkańców</p>
                     </div>
                 </div>
                 <div className="right-part">
@@ -26,10 +26,10 @@ class SectionNewsletter extends Component {
                         <button>Dołącz</button>
                     </form>
                     <div>
-                        <input type="checkbox" /> <label>Zgadzam się na przetwarzanie moich danych przez LOT</label>
+                        <input type="checkbox" /> <label>Zgadzam się na przetwarzanie moich danych osobowych</label>
                     </div>
                     <div>
-                        <input type="checkbox" /> <label>Zgadzam się na przetwarzanie moich danych przez Partnerów</label>
+                        <input type="checkbox" /> <label>Zgadzam się na przetwarzanie moich danych przez aaa.aa</label>
                     </div>
                 </div>
                 <div>

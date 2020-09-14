@@ -14,16 +14,17 @@ class SectionSpecialOffers extends Component {
             <img src={pigImage} alt="skarbonka" />
           </div>
           <div className="first-offer-description flex-display">
-            <span className="left-span"><p>OSZCZĘDZASZ DO 20%</p></span>
+            <span className="left-span"><p>WYDAWAJ MNIEJ</p></span>
             <span className="right-span">
               <div><b>Wyprzedaż już trwa</b></div>
-              <div>Wszystkie lokalizacje na świecie</div>
+              <div>Gdzie tylko chcsz się dostać!</div>
             </span>
           </div>
         </div>
         <div className="second-offer">
-          <h3>LUKSUSOWY DOJAZD</h3>
-          <p>Wybierz komfort ponad wszystko. Skorzystaj z&nbsp;usługi, a&nbsp;dowieziemy Cię na poklad samolotu limuzyną</p>
+          <h3>KLAMKI SAMOCHODOWE</h3>
+          <p>lorem lorem loremlorem lorem loremlorem lorem loremlorem lorem loremlorem lorem loremlorem lorem lorem
+          </p>
           <button>Dowiedz się więcej</button>
         </div>
       </section>

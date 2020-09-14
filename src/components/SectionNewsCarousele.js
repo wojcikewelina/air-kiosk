@@ -79,7 +79,7 @@ export default class Resizable extends Component {
 
     return (
       <div className="section-news-c">
-        <h5> NOWOŚCI W AIRKIOSKU </h5>
+        <h5> NOWOŚCI </h5>
         <div
           style={{
             width: this.state.width + "%",
