@@ -11,6 +11,8 @@
 ## Information about Project
 An application used to online shoping, built with React, JavaScript, and CSS (SCSS). Media queries are involved.
 
+see github-page here: https://wojcikewelina.github.io/air-kiosk
+
 
 ## Project Status:
 
