@@ -9,13 +9,13 @@
 
 
 ## Information about Project
-An application for LOT used to online shoping and getting informations about flight reservations and options, built with React, JavaScript, and CSS (SCSS). Media queries are involved.
+An application used to online shoping, built with React, JavaScript, and CSS (SCSS). Media queries are involved.
 
 
 ## Project Status:
 
 
-Project prepared for the needs of DevPractice internships. Page shows only main view of application. Needs to create subpages.
+Project prepared for the needs of internships. Page shows only main view of application, front-end. Needs to create subpages.
 
 
 ## Instalation
